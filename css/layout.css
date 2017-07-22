@@ -411,6 +411,21 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 30px;
 }
 
+.service .service-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media (max-width: 30px) {
+  .service .service-img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
+
 .service:hover .service-element {
   opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0);
