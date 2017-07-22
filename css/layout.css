@@ -300,13 +300,15 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-banner .promo-banner-title {
-  font-size: 80px;
+  font-size: 70px;
   color: #fff;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
 }
 
 .promo-banner .promo-banner-text {
   font-size: 20px;
   color: #fff;
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
   opacity: .8;
 }
 
