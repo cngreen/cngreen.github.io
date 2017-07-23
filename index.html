@@ -134,41 +134,50 @@
             <div class="bg-color-sky-light" data-auto-height="true">
                 <div class="container content-lg">
                     <div class="row row-space-2 margin-b-4">
+                        
                         <div class="col-md-4 col-sm-6 md-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
+                            <div id="GE_service" class="service" data-height="250px">
+                                <div id="GE_service-element" class="service-element">
                                     <img src="img/mockup/GE_logo.png" width="40" height="40"></img>
                                 </div>
-                                <div class="service-info">
+                                <div id="GE_service-info" class="service-info">
                                     <h3></br>GE Healthcare</h3>
                                     <p class="margin-b-5">Edison Engineering Development Program Intern</p>
+                                    <p class="margin-b-5" id="GE_info"></p>
                                 </div>
-                                <a class="link" href="#">Learn More</a>  
+                                <a id="GE_link" class="link">Learn More<a/>
+                                <a href="#show_GE" class="content-wrapper-link"></a>   
                             </div>
                         </div>
+
                         <div class="col-md-4 col-sm-6 sm-margin-b-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
+                            <div id="FAST_service" class="service" data-height="250px">
+                                <div id="FAST_service-element" class="service-element">
                                     <img src="img/mockup/FAST_logo.png" width="40" height="40"></img>
                                 </div>
-                                <div class="service-info">
+                                <div id="FAST_service-info" class="service-info">
                                     <h3></br>Fast Enterprises</h3>
                                     <p class="margin-b-5">Software Implementation Consultant Intern</p>
+                                    <p class="margin-b-5" id="FAST_info"></p>
                                 </div>
-                                <a class="link" href="#">Learn More</a>    
+                                <a id="FAST_link" class="link">Learn More</a>
+                                <a href="#show_FAST" class="content-wrapper-link"></a>     
                             </div>
                         </div>
+
                         <div class="col-md-4 col-sm-6">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
+                            <div id="KHRI_service" class="service" data-height="250px">
+                                <div id="KHRI_service-element" class="service-element">
                                     <img src="img/mockup/kresge.png" width="60" height="40"></img>
                                 </div>
-                                <div class="service-info">
+                                <div id="KHRI_service-info" class="service-info">
                                     <p></p>
                                     <h3>Kresge Hearing Research Institute</h3>
                                     <p class="margin-b-5">Research Assistant</p>
+                                    <p class="margin-b-5" id="KHRI_info"></p>
                                 </div>
-                                <a class="link" href="#">Learn More</a>     
+                                <a id="KHRI_link" class="link">Learn More</a>
+                                <a href="#show_KHRI" class="content-wrapper-link"></a>      
                             </div>
                         </div>
                     </div>
@@ -180,23 +189,16 @@
 
         <!-- Work -->
         <div id="research">
-
-            <!-- Promo Banner -->
-            <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/kari_science.png">
-                <div class="container-sm content-lg">
-                    <h2 class="promo-banner-title">Research</h2>
-                </div>
-            </div>
-            <!-- End Promo Banner -->
-
-            <div class="container content-lg">
-                <div class="row margin-b-40">
+            
+            <img class="full-width img-responsive" src="img/mockup/kari_science.png" alt="Image">
+            <div class="container content-sm">
                     <div class="col-sm-12">
-                        <h5>I have been involved in medical research since January of 2010. What began as a volunteer position in high school turned into the opportunity to continue on as a laboratory assistant through college in the Kresge Hearing Research Institute. Here, I have had the wonderful opportunity to work on a wide variety of projects related to language and hearing. I have even had the opportunity to design and implement my own project! Several of these projects have culminated in scientific presentations and publications.</h5>
+                        <p><b>I have been involved in medical research since January of 2010. What began as a volunteer position in high school turned into the opportunity to continue on as a laboratory assistant through college in the Kresge Hearing Research Institute. Here, I have had the wonderful opportunity to work on a wide variety of projects related to language and hearing. I have even had the opportunity to design and implement my own project! Several of these projects have culminated in scientific presentations and publications.</b></p>
                     </div>
                 </div>
+            </div>
                 <!--// end row -->
-
+            <div class="container">
                 <div class="row">
                     <!-- Latest Products -->
                     <div class="col-sm-4 sm-margin-b-50">
@@ -224,7 +226,7 @@
                 </div>
                 <!-- End Row -->
 
-                <div class="row">
+                <div class="row margin-b-40">
                     <p></p>
                     <!-- Latest Products -->
                     <div class="col-sm-4 sm-margin-b-50">
@@ -304,6 +306,7 @@
         <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/show-experience.js" type="text/javascript"></script>
 
     </body>
     <!-- END BODY -->
