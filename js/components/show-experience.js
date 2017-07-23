@@ -5,8 +5,9 @@ $(document).ready(function() {
             document.getElementById("GE_info").innerHTML = "</br>From May 2017 until July 2017 I worked as a software " +
             "engineering intern within the Edison program at GE Healthcare.</br> I worked as a part of the CT image reconstruction "+
             "team and my project was focused on optimizing the software build system.  The previous build system was taking more than 5 hours to compile their code.  " +
-            "Using Jenkins and Docker, I was able to create a containerized and automated build environment.  " +
-            "This new build environment was able to compile code 5x faster than the previous system.</br>";
+            "In order to improve efficiency, I created a containerized and automated build environment using open source projects: "+
+            "Jenkins and Docker. " +
+            "This new build environment is able to compile code 5x faster than the previous system.</br>";
             document.getElementById("GE_link").innerHTML = "Hide";
             document.getElementById("GE_service").style.height = "600px";
             $('#GE_service-element').removeClass('service-element');
