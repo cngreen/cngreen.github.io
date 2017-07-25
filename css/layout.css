@@ -393,8 +393,11 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 30px;
 }
 
+.service:hover{
+  background: #f2f2f2;
+}
+
 .service:hover .service-element {
-  opacity: 0;
   -webkit-transform: translate3d(0, -100%, 0);
   -moz-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
