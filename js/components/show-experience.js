@@ -8,11 +8,11 @@ $(document).ready(function() {
             "In order to improve efficiency, I created a containerized and automated build environment using two open source projects: "+
             "Jenkins and Docker. " +
             "I was in charge of scripting the pipeline in Jenkins using Groovy and JSON files obtained from source code management.  In "+
-            "addition, I needed to create and prepare the Docker container environment with the various third party dependencies required "+
+            "addition, I needed to create and prepare the Docker container environment with the various dependencies required "+
             "for source code compilation.  I also prepared Makefiles to create source code rpm packages for easy integration into the new build environment.  "+
             "This new build environment is able to compile code 5x faster than the previous system.</br>";
             document.getElementById("GE_link").innerHTML = "Hide";
-            document.getElementById("GE_service").style.height = "700px";
+            document.getElementById("GE_service").style.height = "750px";
             $('#GE_service-element').removeClass('service-element');
             $('#GE_service-info').removeClass('service-info');
             $('html, body').animate({ scrollTop:  $('#GE_service-element').offset().top - 35 }, 600);
@@ -40,7 +40,7 @@ $(document).ready(function() {
             "To help prepare for that upgrade, I analyzed the current code and the updated code in order to pinpoint potential conflicts " +
             " within the upgrade process.";
             document.getElementById("FAST_link").innerHTML = "Hide";
-            document.getElementById("FAST_service").style.height = "700px";
+            document.getElementById("FAST_service").style.height = "750px";
             $('#FAST_service-element').removeClass('service-element');
             $('#FAST_service-info').removeClass('service-info');
             $('html, body').animate({ scrollTop:  $('#FAST_service-element').offset().top - 35 }, 600);
@@ -66,7 +66,7 @@ $(document).ready(function() {
             "In addition, I have had the opportunity to prepare scientific manuscripts and present at high-level research conferences and symposiums." +
             "</br>For more information on my research experience, please visit the research section of this webpage.";
             document.getElementById("KHRI_link").innerHTML = "Hide";
-            document.getElementById("KHRI_service").style.height = "700px";
+            document.getElementById("KHRI_service").style.height = "750px";
             $('#KHRI_service-element').removeClass('service-element');
             $('#KHRI_service-info').removeClass('service-info');
             $('html, body').animate({ scrollTop:  $('#KHRI_service-element').offset().top - 35 }, 600);
