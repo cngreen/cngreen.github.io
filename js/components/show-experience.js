@@ -3,9 +3,9 @@ $(document).ready(function() {
     $('a[href = "#show_GE"]').click(function(){
         if (document.getElementById("GE_link").innerHTML == "Learn More"){
             document.getElementById("GE_info").innerHTML = "</br>From May 2017 until July 2017 I worked as a software " +
-            "engineering intern within the Edison program at GE Healthcare.</br> I worked as a part of the CT image reconstruction "+
-            "team and my project was focused on optimizing the software build system.  The previous build system was taking more than 5 hours to compile their code.  " +
-            "In order to improve efficiency, I created a containerized and automated build environment using two open source projects: "+
+            "engineering intern within the Edison program at GE Healthcare as a part of the CT image reconstruction "+
+            "team.</br> My project focused on optimizing the software build system.  The previous build system was taking more than 5 hours to compile their code.  " +
+            "In order to improve efficiency, I created a containerized and automated build environment using "+
             "Jenkins and Docker. " +
             "I was in charge of scripting the pipeline in Jenkins using Groovy and JSON files obtained from source code management.  In "+
             "addition, I needed to create and prepare the Docker container environment with the various dependencies required "+
