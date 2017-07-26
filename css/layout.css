@@ -357,7 +357,7 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-img {
   position: absolute;
   right: 0px;
-  top: -50px;
+  top: -40px;
 }
 
 @media (max-width: 768px) {
