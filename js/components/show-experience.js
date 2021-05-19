@@ -31,13 +31,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('a[href = "#show_FAST"]').click(function(){
         if (document.getElementById("FAST_link").innerHTML == "Learn More"){
-            document.getElementById("FAST_info").innerHTML = "</br>From May 2016 until July 2016 I worked as a software " +
-            "implementation consultant intern at Fast Enterprises.</br>As an implementation consultant, I needed to " +
+            document.getElementById("FAST_info").innerHTML = "</br>From May 2018 until February 2019 I worked as a software " +
+            "implementation consultant at Fast Enterprises.</br>As an implementation consultant, I needed to " +
             "communicate with non-technical consumers to identify errors or additional desired functionality. " +
             " I would discuss potential solutions with these clients and then implement the fixes or updates in the sofware. </br>" +
-            "In addition to the consultant role, the site I was working on was preparing for a major software upgrade. "+
-            "To help prepare for that upgrade, I analyzed the current code and the updated code in order to pinpoint potential conflicts " +
-            " within the upgrade process.";
+            "I worked on an interface for law enforcement to interact with the vehicle records for the entire state of Oregon. I wrote complex SQL queries to create reports for law enforcement and the DMV records department in a production database with tens of millions of records. </br>In addition to the consultant role, I wrote an automated testing script to ensure functionality of the most critical feature of the software product (the title and registration functionality for the DMV for the state of Oregon). I used this to identify multiple mission critical bugs related to concurrent processing and high volume.";
             document.getElementById("FAST_link").innerHTML = "Hide";
             document.getElementById("FAST_service").style.height = "700px";
             $('#FAST_service-element').removeClass('service-element');
@@ -59,7 +57,7 @@ $(document).ready(function() {
     $('a[href = "#show_KHRI"]').click(function(){
         if (document.getElementById("KHRI_link").innerHTML == "Learn More"){
             document.getElementById("KHRI_info").innerHTML = "</br>I have worked as a laboratory research assistant at "+
-            "the Kresge Hearing Research Institute since January of 2010.</br>I have been involved in a wide variety of projects "+
+            "the Kresge Hearing Research Institute from January 2010 until January 2018.</br>I have been involved in a wide variety of projects "+
             "ranging from language aquisition to experimental stem-cell surgeries. "+
             "In the lab, I have gained experience with complex data analysis and biological research practices including auditory brainstem response processing, cell quantification, DNA processing, dissection techniques, and surgical techniques. "+
             "In addition, I have had the opportunity to prepare scientific manuscripts and present at high-level research conferences and symposiums." +
