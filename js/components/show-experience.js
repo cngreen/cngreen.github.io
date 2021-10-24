@@ -53,6 +53,30 @@ $(document).ready(function() {
     }); 
 });
 
+
+$(document).ready(function() {
+    $('a[href = "#show_SM"]').click(function(){
+        if (document.getElementById("SM_link").innerHTML == "Learn More"){
+            document.getElementById("SM_info").innerHTML = "</br>From February 2019 until August 2021 I worked as a QA " +
+            "automation engineer at SurveyMonkey.</br>For the first two years at the company, I was focused on spearheading the development of an automated test suite for our mobile applications (using Appium & Pytest). " +
+            "After, I joined the SurveyMonkey Audience team and I focused on making sure our customers are able to get the important answers to the questions that they have. I wrote automated tests (Selenium, Requests & Pytest) to ensure the quality of our customer's experience receiving responses to their surveys, and I also managed the data and metrics around these workflows. ";
+            document.getElementById("SM_link").innerHTML = "Hide";
+            document.getElementById("SM_service").style.height = "700px";
+            $('#SM_service-element').removeClass('service-element');
+            $('#SM_service-info').removeClass('service-info');
+            $('html, body').animate({ scrollTop:  $('#SM_service-element').offset().top - 35 }, 600);
+        } else {
+            document.getElementById("SM_info").innerHTML = "";
+            document.getElementById("SM_link").innerHTML = "Learn More";
+            document.getElementById("SM_service").style.height = "";
+            $('#SM_service-element').addClass('service-element');
+            $('#SM_service-info').addClass('service-info');
+            $('html, body').animate({ scrollTop:  $('#SM_service-element').offset().top - 200 }, 600);
+        }
+
+    }); 
+});
+
 $(document).ready(function() {
     $('a[href = "#show_KHRI"]').click(function(){
         if (document.getElementById("KHRI_link").innerHTML == "Learn More"){
